@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Game of Dice</h1>
+      <h4>Instructions: Roll the dice by clicking on the 'Roll the dice' button, the player with the higher number wins the game.</h4>
+      <div class="dice">
+        <p id="player1">Player 1</p>
+        <img src="./images/dice1.png" alt="" id="img1">
+      </div>
+
+      <div class="dice">
+        <p id = player2>Player 2</p>
+        <img src="./images/dice1.png" alt="" id="img2">
+      </div>
+    </div>
+
+    <h3 id="result"></h3>
+    <div class="container-bottom">
+      <button onclick = "editNames()">Edit Player Names</button> <!--On clicking the button, the player names will be edited-->
+      <button onclick = "rollDice()">Roll the dice</button> <!--On clicking the button, the dice wil be rolled-->
+    </div>
+
+    <footer>
+      www 🎲 App Brewery 🎲 com
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
